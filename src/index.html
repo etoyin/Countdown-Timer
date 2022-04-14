@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+    <div class="dark-bg">
+        <div class="timer-container">
+            <div class="timer" id="timer">
+                <div id="hour" class="hour number">00</div>
+                <div class="semi">:</div>
+                <div id="minute" class="minute number">00</div>
+                <div class="semi">:</div>
+                <div id="second" class="second number">00</div>
+            </div>
+            <div class="timer-input">
+                <div class="inputs">
+                    <label for="hourInput">
+                        HH
+                        <input type="number" min="0" id="hourInput" name="hourInput">
+                    </label>
+                </div>
+                <div class="inputs">
+                    <label for="minuteInput">
+                        MM
+                        <input type="number" max="59" min="0" id="minuteInput" name="minuteInput">
+                    </label>
+                </div>
+                <div class="inputs">
+                    <label for="secondInput">
+                        SS
+                        <input type="number" max="59" min="0" id="secondInput" name="secondInput">
+                    </label>
+                </div>
+            </div>
+            <div class="buttons">
+                <button id="start" type="submit" class="start">Start</button>
+                <button id="pause" class="pause">Pause</button>
+                <button id="clear" class="clear">Clear</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="render.js"></script>
+</body>
+</html>
