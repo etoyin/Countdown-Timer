@@ -14,28 +14,29 @@ body{
 }
 .timer-container{
     padding-top: 100px;
+    width: 100%;
 }
 .timer{
     display: flex;
     justify-content: center;
     color: #16f316;
-    width: max-content;
+    /* width: max-content; */
     /* border: 1px solid white; */
     margin: auto;
     margin-bottom: 30px;
 }
 .timer > .number {
     /* background-color: #f1f1f1; */
-    margin: 10px;
-    padding: 20px;
+    margin: 1vw;
+    padding: 2vw;
 }
 .timer > .semi{
-    margin: 10px;
+    margin: 1vw;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .timer > div{
-    font-size: 320px;
+    font-size: 22vw;
     font-family: 'digital-clock-font';
 }
 .timer-input{
